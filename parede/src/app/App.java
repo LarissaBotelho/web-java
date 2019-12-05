@@ -2,7 +2,7 @@ package app;
 import java.util.Scanner;
 
 public class App {
-    //Método principal para calcular a area e perimetro
+    //Método principal para calcular a quantidade de azulejos
     public static void main(String[] args) {
         //Reconhecimento de entradas
         Scanner ent = new Scanner (System.in);

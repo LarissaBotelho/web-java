@@ -10,12 +10,12 @@ public class App {
         //Criando variável para armazenar os valores de dolar e resultado
         float dolar=0 , resultado;
         //Processo para imprimir no console
-        System.out.println("Digite o valor em Dólar..:");
+        System.out.println("Digite o valor em dólar: ");
         //Armazena a informação inserida
         dolar=ent.nextFloat();
         //Transforma o valor armazenado em real
         resultado=dolar * 2.5f;
         //Informa o resultado no console
-        System.out.println("O valor em Reais é..:" + resultado);
+        System.out.println("O valor em reais é: " + resultado);
     }
 }

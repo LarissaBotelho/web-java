@@ -1,14 +1,21 @@
 package app;
+//Importando a biblioteca
 import java.util.Scanner;
 
 public class App {
-    //Método principal para calcular a area e perimetro
+    // Método principal para transformar a temperatura de Fº em Cº
     public static void main(String[] args) {
-        Scanner ent = new Scanner (System.in);
-       float f, c;
-       System.out.println("Digite a temperauta em Fahrenheit: ");
-       f=ent.nextFloat();
-       c = (f-32)*5/9;
-        System.out.printf("%.2f",c);
+        //Reconhecimento de entradas
+        Scanner ent = new Scanner(System.in);
+        //declarando variáveis
+        float f, c;
+        //imprime no console
+        System.out.println("Digite a temperauta em Fahrenheit: ");
+        //armazena o valor na variavel
+        f = ent.nextFloat();
+        //realiza o calculo
+        c = (f - 32) * 5 / 9;
+        //imprime o resultado no console
+        System.out.printf("%.2f", c);
     }
 }
